@@ -53,6 +53,35 @@ Deploy as a standard Next.js application on Vercel or compatible Node.js infrast
 ```bash
 vercel deploy
 ```
+## External Review
+
+### EU AI Act Runtime Mapping Review (Brussels)
+
+In May 2026, an independent external review examined SolaceVeil's runtime architecture against selected obligations and operational structures within the EU AI Act.
+
+Key observations included:
+
+* Runtime concepts such as authority validation, revalidation, continuity, human oversight, and risk management map onto regulatory obligations at a finer operational resolution.
+* Veil exposes multiple independent runtime monitoring pressures rather than a single composite risk signal.
+* The architecture distinguishes between executed reality and hypothetical/counterfactual evaluation paths.
+* Multi-deployer coherence was identified as a significant future governance challenge where independently compliant systems may drift into divergent operational realities despite maintaining local correctness.
+
+Reviewer observation:
+
+> "The runtime layer answers 'is execution still legitimate at the exact moment consequence binds?'"
+
+The review also identified multi-deployer runtime synchronization and coherence across independently governed participants as a potential load-bearing challenge not yet explicitly operationalized within current regulatory frameworks.
+
+Review document:
+
+* EU AI Act Runtime Mapping Review (May 2026)
+* External Reviewer: Lamar B. Shucrani, Brussels
+
+See:
+
+`/docs/external-review/veil-eu-ai-act-runtime-mapping-shucrani-2026-05-13.pdf`
+
+This review represents an independent observation and does not constitute legal advice, regulatory certification, or conformity assessment.
 
 ## Security
 
