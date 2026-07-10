@@ -1,16 +1,14 @@
 # SolaceVeil Public
 
-Governed cognition runtime for continuity-aware AI systems.
+**Runtime governance infrastructure for continuity-aware, consequence-bearing AI systems.**
 
-SolaceVeil is a runtime governance architecture designed to evaluate whether execution remains legitimate under current conditions before consequence is permitted to form.
+SolaceVeil is a constitutional runtime architecture for evaluating whether a proposed AI-supported action remains legitimate under the conditions that exist **now**, before cognition becomes operational consequence.
 
-As AI systems increasingly participate in real-world workflows, decisions, recommendations, and autonomous actions, the challenge is no longer simply whether a system can reason.
+SolaceVeil is not a chatbot.
+SolaceVeil is not a model benchmark.
+SolaceVeil is not an unrestricted autonomous execution system.
 
-The challenge becomes:
-
-**Should execution still be permitted under the conditions that currently exist?**
-
-SolaceVeil exists to evaluate that question.
+SolaceVeil is a governed runtime layer for preserving continuity, evidence, authority, admissibility, and operator oversight as AI systems participate in real-world workflows.
 
 ---
 
@@ -20,101 +18,224 @@ SolaceVeil exists to evaluate that question.
 Coherent cognition is not the same as admissible execution.
 ```
 
-A system may remain internally coherent while:
+An AI system may remain internally coherent while the world around it changes.
 
-* Authority changes
-* State changes
-* Evidence degrades
-* Context fragments
-* Operational conditions evolve
-* Consequence continues propagating
+Authority may expire.
+Evidence may degrade.
+Patient state may change.
+Facts may become stale.
+Policy may shift.
+Operational context may fragment.
+Dependencies may drift.
+Execution may become inappropriate even when the original recommendation was reasonable.
 
-Coherence alone does not establish legitimacy.
-
----
-
-## Why SolaceVeil Exists
-
-Modern AI systems do not operate against static conditions.
-
-Patient conditions change.
-
-Authorities change.
-
-Permissions expire.
-
-Dependencies drift.
-
-Information becomes stale.
-
-Operational reality evolves.
-
-Yet many systems continue executing as though the conditions that originally justified execution remain unchanged.
-
-SolaceVeil is designed around the premise that advanced AI systems require visible runtime cognition boundaries before outputs become operational consequence.
-
-The objective is not simply to determine whether a recommendation is correct.
-
-The objective is to determine whether execution remains admissible at the moment consequence is about to form.
+SolaceVeil exists to govern that transition.
 
 ---
 
-## Runtime Questions
+## The Central Question
 
-SolaceVeil is designed to evaluate questions such as:
+As AI systems move closer to consequence, the central governance question changes from:
 
-* Does the authority permitting execution still exist?
-* Does the evidentiary state remain sufficient?
-* Has operational context materially changed?
-* Does consequence remain admissible under current conditions?
-* Does continuity remain intact?
-* Should execution continue, pause, escalate, review, or stop?
+```text
+Can the model reason?
+```
 
-These evaluations occur before consequence is permitted to bind reality.
+to:
+
+```text
+Should this specific execution still be permitted under the current conditions?
+```
+
+SolaceVeil is designed to evaluate that question before consequence binds.
+
+---
+
+## Runtime Execution Governance
+
+SolaceVeil introduces a distinct governance layer between cognition and consequence.
+
+This layer evaluates whether an output, recommendation, instruction, or proposed action remains admissible based on:
+
+* current reality
+* available evidence
+* delegated authority
+* operational context
+* identity and access state
+* continuity conditions
+* policy constraints
+* consequence class
+* revocation state
+* operator review requirements
+
+This is different from model evaluation, post-hoc explainability, static compliance review, and ordinary access control.
+
+Those layers matter, but they do not fully answer whether a specific action remains admissible at the moment it is about to affect the world.
 
 ---
 
 ## Pre-Bind Cognition
 
-Pre-Bind Cognition is the process by which a system evaluates:
+SolaceVeil uses the concept of **Pre-Bind Cognition**.
 
-* Authority
-* Admissibility
-* Evidentiary sufficiency
-* State validity
-* Consequence legitimacy
+Pre-Bind Cognition is the runtime process of evaluating:
 
-before execution is permitted to bind cognition to reality.
+* authority
+* admissibility
+* evidence sufficiency
+* state validity
+* continuity integrity
+* consequence legitimacy
 
-SolaceVeil operationalizes this process as a runtime governance layer between cognition and consequence.
+before a system is permitted to bind cognition to reality through action, record creation, communication, workflow execution, or downstream operational effect.
+
+---
+
+## Governance Distinctions
+
+SolaceVeil is built around several distinctions:
+
+* cognition is not authority
+* recommendation is not execution
+* verification is not admissibility
+* access is not legitimacy
+* memory is not current reality
+* capability is not permission
+* observability is not governance
+* coherence is not truth
+* worker output is not admitted fact
+* code generation is not deployable infrastructure
+
+The runtime exists to govern transitions between these states.
 
 ---
 
 ## Public Architecture Areas
 
+### Reality Contact
+
+Determines whether the system remains synchronized with observable operational reality.
+
+### Evidence Sufficiency
+
+Evaluates whether the evidence supporting a proposed action remains current, traceable, and adequate.
+
+### Authority Continuity
+
+Checks whether the authority permitting a proposed action still exists and remains within scope.
+
+### Admissibility Evaluation
+
+Determines whether an action may proceed under current evidence, authority, policy, continuity, and consequence conditions.
+
 ### Continuity Reconstruction
 
-Preserving and recovering continuity across fragmented, interrupted, or evolving state environments.
+Preserves and reconstructs context across sessions, interruptions, evolving facts, and contested state.
 
 ### Epistemic Arbitration
 
-Managing competing interpretations, uncertainty, contradiction, and incomplete information.
+Maintains competing interpretations, uncertainty, contradiction, and incomplete information without premature collapse.
 
-### Cognitive Pressure Visibility
+### Operator Review
 
-Making runtime pressures observable before they silently influence execution.
-
-### Operator Review Framing
-
-Supporting human review, intervention, escalation, override, and accountability.
+Surfaces review packets, escalation conditions, approvals, deferrals, and rejection pathways for human oversight.
 
 ### Execution Boundary Preservation
 
-Maintaining explicit separation between cognition and consequence formation.
+Maintains explicit separation between cognition, candidate work, and consequence-bearing execution.
 
 ### Governance Lineage
 
-Providing traceability, continuity, reconstruction, and governance visibility across execution pathways.
+Preserves traceability across decisions, evidence, authority, review, and runtime state transitions.
+
+---
+
+## Constitutional Runtime Pattern
+
+SolaceVeil follows a constitutional runtime pattern:
+
+```text
+Observe
+  ↓
+Gather Evidence
+  ↓
+Recover Context
+  ↓
+Resolve Authority
+  ↓
+Evaluate Admissibility
+  ↓
+Route to Worker / Operator Review
+  ↓
+Verify Outcome
+  ↓
+Preserve Lineage
+```
+
+The purpose is not to make AI systems slower.
+
+The purpose is to make consequential AI systems more defensible, inspectable, and recoverable.
+
+---
+
+## Constitutional Workforce Pattern
+
+SolaceVeil supports a bounded workforce pattern in which specialized workers can assist with analysis, research, verification, architecture, documentation, and candidate implementation.
+
+Workers may produce candidate outputs.
+
+Workers do not independently admit those outputs as truth.
+
+Workers do not expand their own authority.
+
+Workers do not bypass operator review.
+
+The invariant is:
+
+```text
+Workers may create.
+Runtime evaluates.
+Operators admit.
+```
+
+---
+
+## Software Stewardship
+
+The private SolaceVeil runtime includes software stewardship concepts for repository inspection, verification, mission discovery, release readiness, and operator-reviewed engineering workflows.
+
+The public repository does not contain private orchestration, credentials, customer data, production telemetry, or internal execution infrastructure.
+
+Public materials may describe the architecture and governance model, but production implementation details remain private.
+
+---
+
+## Public / Private Boundary
+
+This public repository is intended to communicate:
+
+* public architecture principles
+* conceptual documentation
+* educational examples
+* public-facing governance materials
+* external review materials
+* website content
+* high-level runtime patterns
+
+It does not include:
+
+* production authentication systems
+* private memory infrastructure
+* customer data
+* operator consoles
+* internal orchestration services
+* telemetry pipelines
+* private runtime infrastructure
+* live execution environments
+* proprietary governance implementations
+* secrets, tokens, or deployment credentials
+
+The public repository is a communication surface, not the production system.
 
 ---
 
@@ -124,11 +245,11 @@ In May 2026, an independent external review examined SolaceVeil's runtime archit
 
 Key observations included:
 
-* Runtime legitimacy evaluation at execution time
-* Continuous revalidation under changing state
-* Human oversight and intervention pathways
-* Risk management decomposition into multiple observable runtime pressures
-* Multi-deployer coherence as a future governance challenge
+* runtime legitimacy evaluation at execution time
+* continuous revalidation under changing state
+* human oversight and intervention pathways
+* risk management decomposition into observable runtime pressures
+* multi-deployer coherence as a future governance challenge
 
 Reviewer observation:
 
@@ -138,29 +259,33 @@ The review further identified multi-deployer coherence as a load-bearing governa
 
 Review document:
 
-`/docs/external-review/veil-eu-ai-act-runtime-mapping-shucrani-2026-05-13.pdf`
+```text
+/docs/external-review/veil-eu-ai-act-runtime-mapping-shucrani-2026-05-13.pdf
+```
 
-This review represents an independent observation and does not constitute legal advice, regulatory certification, or conformity assessment.
+This review represents an independent observation and does not constitute legal advice, regulatory certification, conformity assessment, or regulatory approval.
 
 ---
 
-## Repository Scope
+## Example Domains
 
-This repository contains the public-facing SolaceVeil website, documentation, examples, and public architecture materials.
+SolaceVeil is designed for AI systems operating near consequence, including:
 
-It is designed for public visibility and does not include:
+* clinical AI
+* legal AI
+* financial workflows
+* regulated operations
+* enterprise automation
+* autonomous agents
+* critical infrastructure
+* institutional knowledge systems
+* governed software engineering workflows
 
-* Production authentication systems
-* Private memory infrastructure
-* Customer data
-* Operator consoles
-* Internal orchestration services
-* Telemetry pipelines
-* Runtime infrastructure
-* Live execution environments
-* Proprietary governance implementations
+The same core question applies across domains:
 
-The public repository exists to communicate architecture, principles, governance concepts, and public-facing documentation.
+```text
+Is this specific execution still admissible under current conditions?
+```
 
 ---
 
@@ -195,7 +320,11 @@ vercel deploy
 
 Please report security concerns privately.
 
-See `SECURITY.md`.
+See:
+
+```text
+SECURITY.md
+```
 
 ---
 
@@ -203,13 +332,17 @@ See `SECURITY.md`.
 
 Public contributions are welcome for:
 
-* Documentation
-* Examples
-* Developer experience improvements
-* Architecture clarification
-* Public educational resources
+* documentation
+* examples
+* developer experience improvements
+* architecture clarification
+* public educational resources
 
-See `CONTRIBUTING.md`.
+See:
+
+```text
+CONTRIBUTING.md
+```
 
 ---
 
@@ -217,4 +350,18 @@ See `CONTRIBUTING.md`.
 
 Licensed under the Apache License, Version 2.0.
 
-See `LICENSE` for details.
+See:
+
+```text
+LICENSE
+```
+
+---
+
+## Current Direction
+
+SolaceVeil is evolving toward a public architecture for governed runtime execution, continuity preservation, operator review, and consequence-aware AI infrastructure.
+
+The objective is not unrestricted autonomy.
+
+The objective is legitimacy-preserving cognition under changing reality.
