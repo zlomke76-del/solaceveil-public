@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-09-24",
+  "repositories": [
+    {
+      "repository": "zlomke76-del/Veil",
+      "role": "runtime_authority",
+      "canonical": true,
+      "releaseRelevant": true,
+      "publicMaterialAllowed": false,
+      "lifecycle": "active"
+    },
+    {
+      "repository": "zlomke76-del/solaceveil-public",
+      "role": "public_documentation_surface",
+      "canonical": false,
+      "canonicalRepository": "zlomke76-del/Veil",
+      "releaseRelevant": false,
+      "publicMaterialAllowed": true,
+      "lifecycle": "active",
+      "synchronizationScope": [
+        "public architecture concepts",
+        "public execution-boundary descriptions",
+        "public release notes",
+        "public examples",
+        "public review material"
+      ],
+      "restrictedClasses": [
+        "secrets and credentials",
+        "customer or operator data",
+        "production authentication",
+        "private memory infrastructure",
+        "private telemetry",
+        "operator consoles",
+        "internal orchestration",
+        "live execution infrastructure",
+        "proprietary runtime implementation"
+      ]
+    }
+  ],
+  "publicSyncBaseline": {
+    "privateRuntimeVersion": "0.204.8",
+    "asOf": "2026-09-24",
+    "note": "This records documentation alignment only. It is not a claim that the public repository contains or reproduces the private runtime implementation."
+  }
+}
