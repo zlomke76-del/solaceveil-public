@@ -1,8 +1,8 @@
 # SolaceVeil Public
 
-**Runtime governance infrastructure for continuity-aware, consequence-bearing AI systems.**
+**Governed cognition and execution-boundary architecture for consequence-bearing AI systems.**
 
-SolaceVeil is a constitutional runtime architecture for evaluating whether a proposed AI-supported action remains legitimate under the conditions that exist **now**, before cognition becomes operational consequence.
+SolaceVeil is a constitutional runtime architecture for evaluating whether a proposed AI-supported action remains admissible under the conditions that exist **now**, before cognition becomes operational consequence.
 
 SolaceVeil is not a chatbot.
 SolaceVeil is not a model benchmark.
@@ -237,6 +237,37 @@ It does not include:
 
 The public repository is a communication surface, not the production system.
 
+### Canonical source and synchronization
+
+The private `zlomke76-del/Veil` repository is canonical for production runtime behavior. This public repository is canonical only for its own public documentation, examples, and approved review material.
+
+The current public documentation baseline was reviewed against private runtime **v0.204.8** on **2026-09-24**. That baseline records documentation alignment; it does not claim source parity or establish production deployment status.
+
+See:
+
+```text
+docs/REPOSITORY_AUTHORITY.json
+docs/PUBLIC_SYNC_POLICY.md
+```
+
+### Harmonic governance boundary
+
+At the public architectural level, SolaceVeil separates candidate cognition from the governance decision that permits or denies consequence:
+
+```text
+Veil observes, retrieves, reasons, and proposes
+        ↓
+Veil prepares the exact candidate action and attributable evidence
+        ↓
+Harmonic evaluates standing for that consequence under current conditions
+        ↓
+PERMIT / DENY / HOLD
+        ↓
+Only an admitted, bound consequence may proceed
+```
+
+A model response, connector result, repository observation, prior approval, or worker output does not independently create authority to execute.
+
 ---
 
 ## Independent Review
@@ -360,7 +391,7 @@ LICENSE
 
 ## Current Direction
 
-SolaceVeil is evolving toward a public architecture for governed runtime execution, continuity preservation, operator review, and consequence-aware AI infrastructure.
+SolaceVeil Public documents the architecture of governed cognition, evidence and authority separation, operator review, and consequence-aware execution boundaries without reproducing the private production runtime.
 
 The objective is not unrestricted autonomy.
 

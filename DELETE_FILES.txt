@@ -1,0 +1,5 @@
+Delete these obsolete paths from the public repository when applying this delta:
+
+components/1
+
+The file was an empty one-byte placeholder and is intentionally removed in v1.1.0.
