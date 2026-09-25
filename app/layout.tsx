@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SolaceVeil | Governed Cognition Runtime",
+  title: "SolaceVeil | Governed Cognition Before Consequence",
   description:
-    "Public-facing overview for SolaceVeil, a governed cognition runtime for continuity-aware AI systems.",
+    "Public architecture for SolaceVeil: evidence, authority, structured cognition, governance determination, and bounded execution.",
   icons: {
     icon: "/solaceveil-favicon.svg",
     shortcut: "/solaceveil-favicon.svg",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SolaceVeil",
     description:
-      "Governed cognition runtime for continuity-aware AI systems operating under real-world consequence.",
+      "Models propose. Governance decides. Truth survives.",
     images: ["/solaceveil-favicon.svg"],
   },
 };
